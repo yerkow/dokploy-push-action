@@ -64,7 +64,7 @@ jobs:
     steps:
 
     - name: Dokploy Application Push trigger
-      uses: yerkow/dokploy-push-action@1.0.0
+      uses: yerkow/dokploy-push-action@2.0.0
       with:
         DOKPLOY_URL: ${{ secrets.DOKPLOY_URL }}
         DOKPLOY_APP_ID: ${{ secrets.DOKPLOY_APP_ID }}
